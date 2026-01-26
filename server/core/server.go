@@ -31,6 +31,9 @@ func RunServer() {
 
 	Router := initialize.Routers()
 
+	// 初始化SSH跳板机
+	initialize.InitJumpbox()
+
 	address := fmt.Sprintf(":%d", global.GVA_CONFIG.System.Addr)
 
 	fmt.Printf(`

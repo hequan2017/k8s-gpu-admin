@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__GVA_Helper__requirement_analyzer",
+      "mcp__GVA_Helper__gva_analyze",
+      "mcp__GVA_Helper__gva_execute",
+      "mcp__GVA_Helper__list_all_menus",
+      "mcp__GVA_Helper__list_all_apis",
+      "mcp__GVA_Helper__create_menu"
+    ]
+  }
+}
